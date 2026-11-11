@@ -1,6 +1,6 @@
 # EEG Seizure Detection
 
-A Python pipeline for classifying seizure and non-seizure windows in scalp EEG recordings. It processes CHB-MIT recordings, extracts time-, frequency-, and wavelet-domain features, and evaluates a Random Forest model. The workflow follows the signal-feature-classifier approach described in [“Analysis and Detection of Seizures Using EEG Signal”](https://doi.org/10.1109/AISP61711.2024.10870633).
+A Python pipeline for classifying seizure and non-seizure windows in scalp EEG recordings. It processes CHB-MIT recordings, extracts time-, frequency-, and wavelet-domain features, and evaluates a Random Forest model. The workflow provides the code implementation of my Research publication of signal-feature-classifier approach described in [“Analysis and Detection of Seizures Using EEG Signal”](https://doi.org/10.1109/AISP61711.2024.10870633).
 
 ## Dataset
 
@@ -97,4 +97,3 @@ The baseline reads `data/processed/assembled_features/chbmit_feature_dataset.csv
 - Patient overlap across folds means the results do not measure performance on unseen patients.
 - Overlapping windows are correlated, and the reported metrics are window-level.
 - The fixed-threshold sensitivity is 46.60%; this model has not been clinically validated.
-- Signal processing, feature definitions, labels, and evaluation settings are specified by this implementation where the paper does not provide exact details.
