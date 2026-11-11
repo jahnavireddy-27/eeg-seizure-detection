@@ -1,0 +1,26 @@
+# Source EEG, annotations, derived datasets, manifests, and experiment outputs.
+/data/
+/results/
+*.edf
+*.edf.seizures
+*.bdf
+*.fif
+
+# Python environments, caches, and test artifacts.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+/tests/
+.mypy_cache/
+.ruff_cache/
+
+# Credentials and local development settings.
+.env
+.env.*
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
