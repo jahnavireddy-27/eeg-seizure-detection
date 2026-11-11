@@ -1,0 +1,10 @@
+mne
+numpy
+matplotlib
+wfdb
+pandas
+pyedflib
+PyWavelets
+scikit-learn
+scipy
+pytest
