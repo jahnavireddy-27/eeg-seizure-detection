@@ -7,4 +7,3 @@ pyedflib
 PyWavelets
 scikit-learn
 scipy
-pytest

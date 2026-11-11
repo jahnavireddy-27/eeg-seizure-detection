@@ -112,12 +112,6 @@ python src/train_expanded_random_forest.py
 
 The baseline reads the assembled matrix at `data/processed/assembled_features/chbmit_feature_dataset.csv` and writes results below `data/processed/evaluation/expanded_random_forest_baseline/`. Generated files and data remain local and are ignored by Git.
 
-Run the test suite with:
-
-```bash
-python -m pytest -q
-```
-
 For the legacy CHB01 recording-wise baseline or the feature-family ablation, see `src/train_random_forest.py` and `src/feature_family_ablation.py`. Their results use a different, smaller evaluation and should not be combined with the expanded baseline.
 
 ## Limitations
